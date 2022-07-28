@@ -19,3 +19,6 @@ select setval('triggerwords_id_seq',(select max(id) from triggerwords));
 
 -- 清空所有表数据并将索引置1  
 TRUNCATE TABLE success_data RESTART IDENTITY CASCADE;
+
+
+=====
